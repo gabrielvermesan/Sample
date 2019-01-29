@@ -5512,36 +5512,36 @@
 
           },
           "StatusAttributes": [
-            "LowerCavity_CavityModeOven",
-            "LowerCavity_CavityTargetTemp",
-            "LowerCavity_DelayTimeRemaining",
-            "LowerCavity_CookTimeRemaining",
-            "LowerCavity_OvenTimerState",
-            "LowerCavity_CavityHeatState",
-            "LowerCavity_MeatProbeStatus",
-            "LowerCavity_CookTimeSetTime",
-            "LowerCavity_MeatProbeTargetTemp",
-            "LowerCavity_MeatProbeTemp",
-            "LowerCavity_DelayTimeSetTime",
-            "LowerCavity_CavityActualTemp"
+            "UpperCavity_CavityModeOven",
+            "UpperCavity_CavityTargetTemp",
+            "UpperCavity_DelayTimeRemaining",
+            "UpperCavity_CookTimeRemaining",
+            "UpperCavity_OvenTimerState",
+            "UpperCavity_CavityHeatState",
+            "UpperCavity_MeatProbeStatus",
+            "UpperCavity_CookTimeSetTime",
+            "UpperCavity_MeatProbeTargetTemp",
+            "UpperCavity_MeatProbeTemp",
+            "UpperCavity_DelayTimeSetTime",
+            "UpperCavity_CavityActualTemp"
           ],
           "SendCommandAttributes": [
-            "LowerCavity_CavityOperations",
-            "LowerCavity_OvenTimerOperations"
+            "UpperCavity_CavityOperations",
+            "UpperCavity_OvenTimerOperations"
           ],
           "SetOperationsMapping": {
-            "Operation": "LowerCavity_CavityOperations",
-            "CookTime": "LowerCavity_OvenTimerOperations"
+            "Operation": "UpperCavity_CavityOperations",
+            "CookTime": "UpperCavity_OvenTimerOperations"
           }
         },
         "LightOnOff": {
-          "Visible": false,
+          "Visible": true,
           "AvailableIn": [
             "US",
             "CA"
           ],
           "StateAttributes": {
-            "State": "LowerCavity_CavityLight"
+            "State": "UpperCavity_CavityLight"
           }
         },
         "MeatProbe": {
