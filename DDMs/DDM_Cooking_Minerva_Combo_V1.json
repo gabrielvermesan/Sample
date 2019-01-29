@@ -5510,13 +5510,13 @@
           ]
         },
         "LightOnOff": {
-          "Visible": false,
+          "Visible": true,
           "AvailableIn": [
             "US",
             "CA"
           ],
           "StateAttributes": {
-            "State": "LowerCavity_CavityLight"
+            "State": "UpperCavity_CavityLight"
           }
         },
         "MeatProbe": {
