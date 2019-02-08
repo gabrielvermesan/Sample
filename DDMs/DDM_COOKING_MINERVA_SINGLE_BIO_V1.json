@@ -3752,6 +3752,12 @@
             "State": "Sys_OperationSetQuietModeEnabled"
           }
         },
+        "KitchenTimerLocal": {
+          "Visible": true,
+          "AvailableIn": [
+            "US"
+          ]
+        },
         "RemoteStatus": {
           "Visible": true,
           "ReadOnly": true,
