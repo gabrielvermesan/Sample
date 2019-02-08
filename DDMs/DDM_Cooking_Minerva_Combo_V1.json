@@ -5499,6 +5499,12 @@
           "SetOperationsMapping": {
             "Operation": "KitchenTimer1_KitchenTimerOperations"
           }
+        },
+        "KitchenTimerLocal": {
+          "Visible": true,
+          "AvailableIn": [
+            "US"
+          ]
         }
       },
       "OvenUpperCavity": {
@@ -5539,7 +5545,7 @@
             "CA"
           ],
           "StateAttributes": {
-
+            
           },
           "StatusAttributes": [
             "LowerCavity_CavityModeOven",
@@ -5809,21 +5815,21 @@
             "name": "ADRS",
             "enabled": false,
             "config": {
-
+              
             }
           },
           {
             "name": "Wallmart",
             "enabled": false,
             "config": {
-
+              
             }
           },
           {
             "name": "Whirlpool",
             "enabled": false,
             "config": {
-
+              
             }
           }
         ]
@@ -5854,14 +5860,14 @@
             "name": "National Grid",
             "enabled": false,
             "config": {
-
+              
             }
           },
           {
             "name": "Genability",
             "enabled": false,
             "config": {
-
+              
             }
           }
         ]
@@ -5874,14 +5880,14 @@
             "name": "Amazon Alexa",
             "enabled": false,
             "config": {
-
+              
             }
           },
           {
             "name": "Google Home",
             "enabled": false,
             "config": {
-
+              
             }
           }
         ]
