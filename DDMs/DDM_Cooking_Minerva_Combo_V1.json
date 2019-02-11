@@ -5589,7 +5589,41 @@
 					"StateAttributes": {
 						"State": "LowerCavity_MeatProbeStatus"
 					}
-				}
+				},
+				"AssistedCooking": {
+					"Visible": true,
+					"AvailableIn": [
+					  "US"
+					],
+					"StateAttributes": {
+		  
+					},
+					"StatusAttributes": [
+					  "LowerCavity_CavityModeOven",
+					  "LowerCavity_CavityTargetTemp",
+					  "LowerCavity_CookTimeRemaining",
+					  "LowerCavity_OvenTimerState",
+					  "LowerCavity_CookTimeSetTime",
+					  "LowerCavity_CavityActualTemp"
+					],
+					"SendCommandAttributes": [
+					  "LowerCavity_CavityModeOven",
+					  "LowerCavity_CulinaryCenterID",
+					  "LowerCavity_CavityTargetTemp",
+					  "LowerCavity_CookTimeSetTime",
+					  "LowerCavity_OvenTimerOperations", 
+					  "LowerCavity_CavityOperations"
+					],
+					"SetOperationsMapping": {
+					  "Operation": "LowerCavity_CavityOperations",
+					  "CookOperation": "LowerCavity_OvenTimerOperations",
+					  "CookTime": "LowerCavity_CookTimeSetTime",
+					  "CookTemp": "LowerCavity_CavityTargetTemp",
+					  "CycleName": "LowerCavity_CavityModeOven",
+					  "ProfileId": "LowerCavity_CulinaryCenterID"
+					  }
+				  }
+		  
 			}
 		},
 		"Rulesets": [{
