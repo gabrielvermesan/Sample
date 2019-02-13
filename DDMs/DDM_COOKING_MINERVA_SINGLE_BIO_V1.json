@@ -3752,7 +3752,7 @@
             "State": "Sys_OperationSetQuietModeEnabled"
           }
         },
-        "KitchenTimerLocal": {
+        "LocalKitchenTimer": {
           "Visible": true,
           "AvailableIn": [
             "US"
