@@ -5632,7 +5632,31 @@
 				"groupBy": "Appliance_FaultCode",
 				"attributes": "Appliance_FaultCode"
 			}
-		}]
+		}],
+		"AttributesMapping": {
+			"OvenUpperCavity": {
+			  "CycleName": [
+				"OvenUpperCavity_CycleSetCommonMode",
+				"OvenUpperCavity_CycleSetEasyConvectFood",
+				"OvenUpperCavity_CycleSetFrozenBakeFood"
+			  ],
+			  "TimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
+			  "TimeElapsed": "OvenUpperCavity_TimeStatusCookTimeElapsed",
+			  "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen"
+			},
+			"OvenLowerCavity": {
+			  "CycleName": [
+				"LowerCavity_CycleSetCommonMode",
+				"LowerCavity_CycleSetEasyConvectFood",
+				"LowerCavity_CycleSetFrozenBakeFood"
+			  ],
+			  "TimeRemaining": "OvenLowerCavity_TimeStatusCookTimeRemaining",
+			  "TimeElapsed": "OvenLowerCavity_TimeStatusCookTimeElapsed",
+			  "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen"
+			},
+			"OnlineStatus": "Online",
+			"PowerEnergyConsumption": "XCat_PowerStatusEnergyConsumption"
+		}
 	},
 	"Alerts": {
 		"Key": "DDM_Cooking_Minerva_Combo_V1",
