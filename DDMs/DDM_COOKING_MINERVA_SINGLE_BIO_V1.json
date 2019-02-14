@@ -3838,7 +3838,8 @@
         ],
         "TimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
         "TimeElapsed": "OvenUpperCavity_TimeStatusCookTimeElapsed",
-        "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen"
+        "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
+        "LightOn": "OvenUpperCavity_DisplaySetLightOn"
       },
       "OvenLowerCavity": {
         "CycleName": [
@@ -3852,7 +3853,8 @@
       },
       "Common": {
         "OnlineStatus": "Online",
-        "PowerEnergyConsumption": "XCat_PowerStatusEnergyConsumption"
+        "PowerEnergyConsumption": "XCat_PowerStatusEnergyConsumption",
+        "QuietMode": "Sys_OperationSetQuietModeEnabled"
       }
     },
     "Models": {
