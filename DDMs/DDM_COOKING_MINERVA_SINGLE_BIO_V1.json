@@ -3848,12 +3848,12 @@
         ],
         "TimeRemaining": "OvenLowerCavity_TimeStatusCookTimeRemaining",
         "TimeElapsed": "OvenLowerCavity_TimeStatusCookTimeElapsed",
-        "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen"
+        "DoorOpen": "OvenLowerCavity_OpStatusDoorOpen"
       },
-      "Common" : {
+      "Common": {
         "OnlineStatus": "Online",
         "PowerEnergyConsumption": "XCat_PowerStatusEnergyConsumption"
-      }      
+      }
     },
     "Models": {
       "UpperCavityHeader": [
