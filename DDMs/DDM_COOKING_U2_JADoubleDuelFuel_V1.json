@@ -4075,6 +4075,12 @@
 		},
 		"Features": {
 			"Common": {
+			  "LocalKitchenTimer": {
+          "Visible": true,
+          "AvailableIn": [
+            "US"
+          ]
+        }
 			},
 			"OvenUpperCavity": {
 				"SetOven": {
