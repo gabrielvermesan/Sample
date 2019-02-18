@@ -3837,7 +3837,7 @@
           "OvenUpperCavity_CycleSetFrozenBakeFood"
         ],
         "TimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
-        "TimeElapsed": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
+        "TimeElapsed": "OvenUpperCavity_TimeStatusCookTimeElapsed",
         "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
         "LightOn": "OvenUpperCavity_DisplaySetLightOn"
       },
@@ -3848,7 +3848,7 @@
           "LowerCavity_CycleSetFrozenBakeFood"
         ],
         "TimeRemaining": "OvenLowerCavity_TimeStatusCookTimeRemaining",
-        "TimeElapsed": "OvenLowerCavity_TimeStatusCycleTimeElapsed",
+        "TimeElapsed": "OvenLowerCavity_TimeStatusCookTimeElapsed",
         "DoorOpen": "OvenLowerCavity_OpStatusDoorOpen"
       },
       "Common": {
