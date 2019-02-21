@@ -4093,26 +4093,24 @@
 
 					},
 					"StatusAttributes": [
-						"UpperCavity_CavityModeOven",
-						"UpperCavity_CavityTargetTemp",
-						"UpperCavity_DelayTimeRemaining",
-						"UpperCavity_CookTimeRemaining",
-						"UpperCavity_OvenTimerState",
-						"UpperCavity_CavityHeatState",
-						"UpperCavity_MeatProbeStatus",
-						"UpperCavity_CookTimeSetTime",
-						"UpperCavity_MeatProbeTargetTemp",
-						"UpperCavity_MeatProbeTemp",
-						"UpperCavity_DelayTimeSetTime",
-						"UpperCavity_CavityActualTemp"
+						"OvenUpperCavity_CavityModeOven",
+						"OvenUpperCavity_CavityTargetTemp",
+						"OvenUpperCavity_DelayTimeRemaining",
+						"OvenUpperCavity_CookTimeRemaining",
+						"OvenUpperCavity_OvenTimerState",
+						"OvenUpperCavity_CavityHeatState",
+						"OvenUpperCavity_MeatProbeStatus",
+						"OvenUpperCavity_CookTimeSetTime",
+						"OvenUpperCavity_MeatProbeTargetTemp",
+						"OvenUpperCavity_MeatProbeTemp",
+						"OvenUpperCavity_DelayTimeSetTime",
+						"OvenUpperCavity_CavityActualTemp"
 					],
 					"SendCommandAttributes": [
-						"UpperCavity_CavityOperations",
-						"UpperCavity_OvenTimerOperations"
+						"OvenUpperCavity_OpSetOperations"
 					],
 					"SetOperationsMapping": {
-						"Operation": "UpperCavity_CavityOperations",
-						"CookTime": "UpperCavity_OvenTimerOperations"
+						"Operation": "OvenUpperCavity_OpSetOperations"
 					}
 				},
 				"MeatProbe": {
@@ -4123,7 +4121,7 @@
 						"CA"
 					],
 					"StateAttributes": {
-						"State": "UpperCavity_MeatProbeStatus"
+						"State": "OvenUpperCavity_MeatProbeStatus"
 					}
 				},
         "AssistedCooking" : {
@@ -4135,12 +4133,12 @@
 
           },
           "StatusAttributes": [
-            "UpperCavity_CavityModeOven",
-            "UpperCavity_CavityTargetTemp",
-            "UpperCavity_CookTimeRemaining",
-            "UpperCavity_OvenTimerState",
-            "UpperCavity_CookTimeSetTime",
-            "UpperCavity_CavityActualTemp"
+            "OvenUpperCavity_CavityModeOven",
+            "OvenUpperCavity_CavityTargetTemp",
+            "OvenUpperCavity_CookTimeRemaining",
+            "OvenUpperCavity_OvenTimerState",
+            "OvenUpperCavity_CookTimeSetTime",
+            "OvenUpperCavity_CavityActualTemp"
           ],
           "SendCommandAttributes": [
             "OvenUpperCavity_CulinaryCtrSetId",
@@ -4167,26 +4165,24 @@
 
 					},
 					"StatusAttributes": [
-						"LowerCavity_CavityModeOven",
-						"LowerCavity_CavityTargetTemp",
-						"LowerCavity_DelayTimeRemaining",
-						"LowerCavity_CookTimeRemaining",
-						"LowerCavity_OvenTimerState",
-						"LowerCavity_CavityHeatState",
-						"LowerCavity_MeatProbeStatus",
-						"LowerCavity_CookTimeSetTime",
-						"LowerCavity_MeatProbeTargetTemp",
-						"LowerCavity_MeatProbeTemp",
-						"LowerCavity_DelayTimeSetTime",
-						"LowerCavity_CavityActualTemp"
+						"OvenLowerCavity_CavityModeOven",
+						"OvenLowerCavity_CavityTargetTemp",
+						"OvenLowerCavity_DelayTimeRemaining",
+						"OvenLowerCavity_CookTimeRemaining",
+						"OvenLowerCavity_OvenTimerState",
+						"OvenLowerCavity_CavityHeatState",
+						"OvenLowerCavity_MeatProbeStatus",
+						"OvenLowerCavity_CookTimeSetTime",
+						"OvenLowerCavity_MeatProbeTargetTemp",
+						"OvenLowerCavity_MeatProbeTemp",
+						"OvenLowerCavity_DelayTimeSetTime",
+						"OvenLowerCavity_CavityActualTemp"
 					],
 					"SendCommandAttributes": [
-						"LowerCavity_CavityOperations",
-						"LowerCavity_OvenTimerOperations"
+						"OvenLowerCavity_OpSetOperations"
 					],
 					"SetOperationsMapping": {
-						"Operation": "LowerCavity_CavityOperations",
-						"CookTime": "LowerCavity_OvenTimerOperations"
+						"Operation": "OvenLowerCavity_OpSetOperations"
 					}
 				},
 				"MeatProbe": {
@@ -4197,7 +4193,7 @@
 						"CA"
 					],
 					"StateAttributes": {
-						"State": "LowerCavity_MeatProbeStatus"
+						"State": "OvenLowerCavity_MeatProbeStatus"
 					}
 				}
 			}
