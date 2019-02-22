@@ -5643,22 +5643,23 @@
           "OvenUpperCavity_CycleSetFrozenBakeFood"
         ],
         "TimeRemaining": "OvenUpperCavity_TimeStatusCookTimeRemaining",
-        "TimeElapsed": "OvenUpperCavity_TimeStatusCookTimeElapsed",
-        "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen"
+        "TimeElapsed": "OvenUpperCavity_TimeStatusCycleTimeElapsed",
+        "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen",
+        "LightOn": "UpperCavity_CavityLight"
       },
       "OvenLowerCavity": {
         "CycleName": [
-          "LowerCavity_CycleSetCommonMode",
-          "LowerCavity_CycleSetEasyConvectFood",
-          "LowerCavity_CycleSetFrozenBakeFood"
+          "LowerCavity_CavityModeOven"
         ],
-        "TimeRemaining": "OvenLowerCavity_TimeStatusCookTimeRemaining",
-        "TimeElapsed": "OvenLowerCavity_TimeStatusCookTimeElapsed",
-        "DoorOpen": "OvenUpperCavity_OpStatusDoorOpen"
+        "TimeRemaining": "LowerCavity_CookTimeRemaining",
+        "TimeElapsed": "LowerCavity_ElapseCookTime",
+        "DoorOpen": "LowerCavity_CavityDoorStatus",
+        "LightOn": "LowerCavity_CavityLight"
       },
       "Common": {
         "OnlineStatus": "Online",
-        "PowerEnergyConsumption": "XCat_PowerStatusEnergyConsumption"
+        "PowerEnergyConsumption": "XCat_PowerStatusEnergyConsumption",
+        "QuietMode": "Sys_OperationSetQuietModeEnabled"
       }
     }
   },
