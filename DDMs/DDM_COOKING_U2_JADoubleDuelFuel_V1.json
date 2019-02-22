@@ -4166,6 +4166,18 @@
           "StateAttributes": {},
           "SendCommandAttributes": [],
           "SetOperationsMapping": {}
+        },
+        "FavoriteCycle": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
+          "StateAttributes": {},
+          "SendCommandAttributes": [],
+          "SetOperationsMapping": {}
         }
       },
       "OvenLowerCavity": {
@@ -4247,6 +4259,18 @@
             "OvenLowerCavity_TimeSetDelayTime",
             "OvenLowerCavity_DisplStatusDisplayTemp"
           ],
+          "StateAttributes": {},
+          "SendCommandAttributes": [],
+          "SetOperationsMapping": {}
+        },
+        "FavoriteCycle": {
+          "Visible": true,
+          "ReadOnly": false,
+          "AvailableIn": [
+            "US",
+            "CA"
+          ],
+          "StatusAttributes": [],
           "StateAttributes": {},
           "SendCommandAttributes": [],
           "SetOperationsMapping": {}
